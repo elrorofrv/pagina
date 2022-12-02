@@ -25,6 +25,7 @@ function respuesta(num_pregunta,seleccionada){
 
 //funcion2
 function completar(){
+    
     cantidad_correctas = 0;
     console.log(opcion_elegida)
     for(i=0; i < correctas.length;i++){
@@ -35,6 +36,7 @@ function completar(){
     }
     document.getElementById("resultado").innerHTML = cantidad_correctas;
 }
+
 
 
 

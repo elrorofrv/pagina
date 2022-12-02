@@ -4,9 +4,11 @@ body, html{
 }
 
 body{
+    background-image: url(https://media.istockphoto.com/id/1332097112/es/foto/el-negro-y-la-plata-son-gris-claro-con-blanco-el-degradado-es-la-superficie-con-plantillas-de.jpg?s=612x612&w=0&k=20&c=YMD67pE-xOdzkFkRI0-pweSMUFjx7dw-_SSYG06mMcs=);
     margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0;
-    background: #fff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,7 +19,6 @@ body{
 .form-box{
     width: 300px;
     padding: 40px;
-    background: #000;
     text-align: center;
 }
 
@@ -70,9 +71,10 @@ h1{
 
 button{
     margin: 20px;
-    background: #5352ed;
-    border: 50px;
+    background:blueviolet;
+    border: 100px;
     color: white;
-    font-size: 100%;
+    border-radius: 600%;
+    font-size: 15px;
 }
     
