@@ -18,6 +18,7 @@ function respuesta(num_pregunta,seleccionada){
     labels[5].style.backgroundColor = "white" 
     labels[7].style.backgroundColor = "white" 
     labels[9].style.backgroundColor = "white"
+    labels[10].style.backgroundColor = "white"
 
     //color
     seleccionada.parentNode.style.backgroundColor = "#cec0fc";
